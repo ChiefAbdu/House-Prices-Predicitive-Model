@@ -1,0 +1,30 @@
+Dataset Shape:
+(20640, 9)
+
+Column Names:
+['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude', 'MedHouseVal']
+
+Data Types:
+MedInc         float64
+HouseAge       float64
+AveRooms       float64
+AveBedrms      float64
+Population     float64
+AveOccup       float64
+Latitude       float64
+Longitude      float64
+MedHouseVal    float64
+dtype: object
+
+Missing Values:
+MedInc         0
+HouseAge       0
+AveRooms       0
+AveBedrms      0
+Population     0
+AveOccup       0
+Latitude       0
+Longitude      0
+MedHouseVal    0
+dtype: int64
+

@@ -1,0 +1,13 @@
+
+California Housing Dataset - Data Dictionary
+
+Median_Income_10kUSD: Median income in tens of thousands of USD.
+Median_House_Age_Years: Median age of houses in the block.
+Average_Rooms: Average number of rooms per household.
+Average_Bedrooms: Average number of bedrooms per household.
+Population: Total population of the block.
+Average_Occupancy: Average number of occupants per household.
+Latitude: Geographic latitude.
+Longitude: Geographic longitude.
+Median_House_Value_100kUSD: Median house value in hundreds of thousands of USD.
+MedHouseVal_USD: Median house value in U.S. Dollars.

@@ -1,0 +1,21 @@
+{
+    "Dataset Name": "California Housing",
+    "Source": "1990 U.S. Census",
+    "Target Variable": "Median House Value",
+    "Original Unit": "Hundreds of thousands of U.S. Dollars",
+    "Converted Unit": "U.S. Dollars (USD)",
+    "Number of Samples": 20640,
+    "Number of Features": 10,
+    "Features": [
+        "Median_Income_10kUSD",
+        "Median_House_Age_Years",
+        "Average_Rooms",
+        "Average_Bedrooms",
+        "Population",
+        "Average_Occupancy",
+        "Latitude",
+        "Longitude",
+        "Median_House_Value_100kUSD",
+        "MedHouseVal_USD"
+    ]
+}
