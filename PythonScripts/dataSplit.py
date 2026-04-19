@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 # Load dataset
-housing = pd.read_csv("california_housing_dataset/california_housing.csv")
+housing = pd.read_csv("ExtractedData/california_housing.csv")
 
 # Step 1: Create income categories
 housing["income_cat"] = pd.cut(
@@ -31,6 +31,6 @@ print(f"Test Set size: {len(test_set)}")
 dev_set.to_csv("dev_set.csv", index=False)
 test_set.to_csv("test_set.csv", index=False)
 
-print("✅ Files saved:")
+print("Files saved:")
 print("dev_set.csv")
 print("test_set.csv")

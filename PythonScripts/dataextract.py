@@ -9,7 +9,7 @@ from sklearn.datasets import fetch_california_housing
 sns.set(style="whitegrid", context="notebook")
 
 # Create output directory
-output_dir = "california_housing_figures"
+output_dir = "ExtractedData"
 os.makedirs(output_dir, exist_ok=True)
 
 # Load dataset
@@ -149,5 +149,5 @@ plt.ylabel("Frequency")
 plt.savefig(f"{output_dir}/10_population_histogram_linear.png", dpi=300)
 plt.close()
 
-print("✅ All figures generated successfully!")
+print("All figures generated successfully!")
 print(f"📁 Saved in: {os.path.abspath(output_dir)}")
